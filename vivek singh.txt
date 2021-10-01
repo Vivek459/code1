@@ -1,0 +1,8 @@
+clc;
+clear all;
+d=input("enter the radius of phase and neutral wire");
+r=input("enter the distance between phase and neutral wire");
+l=2*10^(-7)*log(d/r);
+c=2*3.14*8.85*10^(-12)/log(d/r);
+fprintf("value of inductor =%f \n",l);
+fprintf("value of capacitance =%f \n",c);
